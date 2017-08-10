@@ -1,3 +1,6 @@
 [submodule "vim/pack/mrroman/start/vim-vinegar"]
 	path = vim/pack/mrroman/start/vim-vinegar
 	url = git://github.com/tpope/vim-vinegar.git
+[submodule "vim/pack/mrroman/start/vim-airline"]
+	path = vim/pack/mrroman/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git

@@ -46,3 +46,6 @@ map <Leader>f gg=G
 filetype indent on
 
 nnoremap <localleader>t :EnTypeCheck<CR>
+
+" vim-airline
+let g:airline_powerline_fonts=1
