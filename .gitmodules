@@ -4,3 +4,6 @@
 [submodule "vim/pack/mrroman/start/vim-airline"]
 	path = vim/pack/mrroman/start/vim-airline
 	url = https://github.com/vim-airline/vim-airline.git
+[submodule "vim/pack/mrroman/start/vim-fugitive"]
+	path = vim/pack/mrroman/start/vim-fugitive
+	url = git://github.com/tpope/vim-fugitive.git
