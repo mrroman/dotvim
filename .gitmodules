@@ -7,3 +7,9 @@
 [submodule "vim/pack/mrroman/start/vim-fugitive"]
 	path = vim/pack/mrroman/start/vim-fugitive
 	url = git://github.com/tpope/vim-fugitive.git
+[submodule "vim/pack/mrroman/start/fzf.vim"]
+	path = vim/pack/mrroman/start/fzf.vim
+	url = https://github.com/junegunn/fzf.vim.git
+[submodule "vim/pack/mrroman/start/fzf"]
+	path = vim/pack/mrroman/start/fzf
+	url = https://github.com/junegunn/fzf.git

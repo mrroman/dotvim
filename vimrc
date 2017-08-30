@@ -50,3 +50,8 @@ nnoremap <localleader>t :EnTypeCheck<CR>
 
 " vim-airline
 let g:airline_powerline_fonts=1
+
+" fzf
+map <C-P> :FZF<CR>
+imap <C-P> <Esc>:FZF<CR>
+vmap <C-P> <Esc>:FZF<CR>
