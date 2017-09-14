@@ -13,3 +13,6 @@
 [submodule "vim/pack/mrroman/start/fzf"]
 	path = vim/pack/mrroman/start/fzf
 	url = https://github.com/junegunn/fzf.git
+[submodule "vim/pack/mrroman/start/vim-editorconfig"]
+	path = vim/pack/mrroman/start/vim-editorconfig
+	url = https://github.com/sgur/vim-editorconfig.git
