@@ -52,6 +52,22 @@ nnoremap <localleader>t :EnTypeCheck<CR>
 let g:airline_powerline_fonts=1
 
 " fzf
-map <C-P> :FZF<CR>
-imap <C-P> <Esc>:FZF<CR>
-vmap <C-P> <Esc>:FZF<CR>
+map <leader><leader> :Files<CR>
+map <leader><Enter> :Buffers<CR>
+
+" Mapping selecting mappings
+nmap <leader><tab> <plug>(fzf-maps-n)
+xmap <leader><tab> <plug>(fzf-maps-x)
+omap <leader><tab> <plug>(fzf-maps-o)
+
+" Insert mode completion
+imap <c-x><c-k> <plug>(fzf-complete-word)
+imap <c-x><c-f> <plug>(fzf-complete-path)
+imap <c-x><c-j> <plug>(fzf-complete-file-ag)
+imap <c-x><c-l> <plug>(fzf-complete-line)
+
+" Advanced customization using autoload functions
+inoremap <expr> <c-x><c-k> fzf#vim#complete#word({'left': '15%'})
+
+" yaml
+au BufNewFile,BufRead *.yml set sts=2 sw=2 ts=2
